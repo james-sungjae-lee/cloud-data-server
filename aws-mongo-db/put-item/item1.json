@@ -1,0 +1,33 @@
+{
+  "features": {
+    "M": {
+      "camera": {
+        "S": "12MP"
+      },
+      "memory": {
+        "S": "64GB"
+      },
+      "os": {
+        "S": "iOS11"
+      },
+      "processor": {
+        "S": "A11 Bionic(64bit)"
+      }
+    }
+  },
+  "id": {
+    "S": "3"
+  },
+  "mnfr": {
+    "S": "Apple"
+  },
+  "name": {
+    "S": "Apple iPhone X, Space Gray, 64 GB"
+  },
+  "price": {
+    "N": "900000"
+  },
+  "type": {
+    "S": "phone"
+  }
+}
