@@ -1,0 +1,33 @@
+{
+  "features": {
+    "M": {
+      "camera": {
+        "S": "12MP"
+      },
+      "memory": {
+        "S": "256GB"
+      },
+      "os": {
+        "S": "iOS11"
+      },
+      "processor": {
+        "S": "A11 Bionic(64bit)"
+      }
+    }
+  },
+  "id": {
+    "S": "3"
+  },
+  "mnfr": {
+    "S": "Apple"
+  },
+  "name": {
+    "S": "Apple iPhone 8+, Space Gray, 256 GB"
+  },
+  "price": {
+    "N": "1100000"
+  },
+  "type": {
+    "S": "phone"
+  }
+}

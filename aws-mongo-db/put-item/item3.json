@@ -1,0 +1,27 @@
+{
+  "features": {
+    "M": {
+      "author": {
+        "S": "Lee"
+      },
+      "ISBN": {
+        "S": "9XX-XX-XXXX-005-4"
+      }
+    }
+  },
+  "id": {
+    "S": "5"
+  },
+  "mnfr": {
+    "S": "O'Relly"
+  },
+  "name": {
+    "S": "AWS Serverless"
+  },
+  "price": {
+    "N": "60000"
+  },
+  "type": {
+    "S": "book"
+  }
+}
