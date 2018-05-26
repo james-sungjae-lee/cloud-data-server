@@ -1,0 +1,27 @@
+{
+  "features": {
+    "M": {
+      "author": {
+        "S": "Kim"
+      },
+      "ISBN": {
+        "S": "9XX-XX-XXXX-007-2"
+      }
+    }
+  },
+  "id": {
+    "S": "6"
+  },
+  "mnfr": {
+    "S": "O'Relly"
+  },
+  "name": {
+    "S": "Google Cloud Platform"
+  },
+  "price": {
+    "N": "55000"
+  },
+  "type": {
+    "S": "book"
+  }
+}
