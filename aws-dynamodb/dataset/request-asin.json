@@ -323,6 +323,132 @@
                     }
                 }
             }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "059400232X"
+                    }, 
+                    "price": {
+                        "N": "4.99"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31zdIqAs4JL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble B211-"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594296420"
+                    }, 
+                    "price": {
+                        "N": "6.99"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/41WwbxmshWL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble NOOK "
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594033926"
+                    }, 
+                    "price": {
+                        "N": "9.99"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31VZYUGEFzL.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble Dessi"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0743610431"
+                    }, 
+                    "price": {
+                        "N": "111.6"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31AgCC9ZFqL.jpg"
+                    }, 
+                    "title": {
+                        "S": "Maptech ChartKit&reg; Bo"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0777700018"
+                    }, 
+                    "price": {
+                        "N": "21.4"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/41FVVuXVieL._SX300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "65W/90W DC Car Charger f"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "094339676X"
+                    }, 
+                    "price": {
+                        "N": "6.95"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31wF7OWvP4L.jpg"
+                    }, 
+                    "title": {
+                        "S": "&quot;The Arp Atlas of P"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0970407998"
+                    }, 
+                    "price": {
+                        "N": "6.99"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/41I-EplYw9L._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Audiovox Surface SURF402"
+                    }
+                }
+            }
         }
     ]
 }
