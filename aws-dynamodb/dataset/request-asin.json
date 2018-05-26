@@ -1,0 +1,328 @@
+{
+    "amazon-review-dataset-electronics": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0439886341"
+                    }, 
+                    "price": {
+                        "N": "8.15"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/51k0qa8fNML._SX300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Digital Organizer and Me"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0511189877"
+                    }, 
+                    "price": {
+                        "N": "23.36"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/41HaAhbvLyL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "CLIKR-5 Time Warner Cabl"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0528881469"
+                    }, 
+                    "price": {
+                        "N": "299.99"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/51FnRkJqNWL._SX300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Rand McNally 528881469 7"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0558835155"
+                    }, 
+                    "price": {
+                        "N": "13.95"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/21rEirndRLL.jpg"
+                    }, 
+                    "title": {
+                        "S": "Polaroid Pbm2200 PC / Ga"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594012015"
+                    }, 
+                    "price": {
+                        "N": "32.1"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/41kQsHT8UtL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble NOOK "
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594017580"
+                    }, 
+                    "price": {
+                        "N": "78.83"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/41CqeMM0mTL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Jonathan Adler Punctuati"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594450209"
+                    }, 
+                    "price": {
+                        "N": "15.55"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31KkpByX11L._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble 7&quo"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594549558"
+                    }, 
+                    "price": {
+                        "N": "15.99"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/51PnHXdXqZL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble Jonat"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594514681"
+                    }, 
+                    "price": {
+                        "N": "12.95"
+                    }, 
+                    "imUrl": {
+                        "S": "http://g-ecx.images-amazon.com/images/G/01/x-site/icons/no-img-sm._CB192198896_.gif"
+                    }, 
+                    "title": {
+                        "S": "Hd Groovy Stand In Blue-"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594549507"
+                    }, 
+                    "price": {
+                        "N": "11.5"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/01eX9rjxUIL.jpg"
+                    }, 
+                    "title": {
+                        "S": "Groovy Protective Stand "
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594451647"
+                    }, 
+                    "price": {
+                        "N": "49.95"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/51RjSETO23L._SX300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble HDTV "
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594450705"
+                    }, 
+                    "price": {
+                        "N": "9.95"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31pTSps6B8L._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Nook Vara Stylus 2-in-1"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594033896"
+                    }, 
+                    "price": {
+                        "N": "1.93"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31VNMZGxuwL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Nook Color Clear Screen "
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594477670"
+                    }, 
+                    "price": {
+                        "N": "0.94"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31VRrdE3B%2BL._SX300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble NOOK "
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594481813"
+                    }, 
+                    "price": {
+                        "N": "19.65"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/41K7ymN5fzL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble OV/HB"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594033934"
+                    }, 
+                    "price": {
+                        "N": "0.02"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31Vl-YJ5kbL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble B5053"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594481902"
+                    }, 
+                    "price": {
+                        "N": "22.5"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31BnIokx6AL._SY300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "Barnes &amp; Noble OV/HB"
+                    }
+                }
+            }
+        }, 
+        {
+            "PutRequest": {
+                "Item": {
+                    "asin": {
+                        "S": "0594482127"
+                    }, 
+                    "price": {
+                        "N": "127.99"
+                    }, 
+                    "imUrl": {
+                        "S": "http://ecx.images-amazon.com/images/I/31Be21GGF2L._SX300_.jpg"
+                    }, 
+                    "title": {
+                        "S": "NOOK HD 7 inch Protectiv"
+                    }
+                }
+            }
+        }
+    ]
+}
