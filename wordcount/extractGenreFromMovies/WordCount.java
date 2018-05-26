@@ -18,8 +18,9 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 public class WordCount {
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
-
+	// Create a new job
         Job job = Job.getInstance(conf, "wordcount");
+	// Use the WordCount.class file to point to the job jar
         job.setJarByClass(WordCount.class);
 
         job.setOutputKeyClass(Text.class);
@@ -30,10 +31,10 @@ public class WordCount {
 
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
-
+	// Setting the input and output locations
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
-
+	// Submit the job and wait for it's completion
         job.waitForCompletion(true);
     }
 
@@ -57,6 +58,7 @@ public class WordCount {
         public void reduce(Text key, Iterable<IntWritable> values, Context context)
                 throws IOException, InterruptedException {
             int sum = 0;
+	    // Sum all the occureeences of the word (key)
             for (IntWritable val : values) {
                 sum += val.get();
             }
