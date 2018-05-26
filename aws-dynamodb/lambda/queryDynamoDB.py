@@ -1,6 +1,7 @@
 import boto3
 import json
 import decimal
+
 from boto3.dynamodb.conditions import Key, Attr
 
 # Helper class to convert a DynamoDB item to JSON.
@@ -24,7 +25,6 @@ def lambda_handler(event, context):
         KeyConditionExpression=Key('asin').eq(asin) & Key('price').gt(0) 
     )
     
-    item = response['Items']
-    print(json.dumps(item, indent=4, cls=DecimalEncoder))
-    return "Successed query"
-
+    item = response['Items'][0]
+    result = "asin : "+str(item["asin"])+" product name : "+str(item["title"])+ " product price : "+str(item["price"])
+    return result
