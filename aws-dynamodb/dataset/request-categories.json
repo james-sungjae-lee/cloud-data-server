@@ -1,28 +1,16 @@
 {
-    "amazon-review-dataset-electronics": [
+    "apd-electronics-category": [
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "1.8"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/41nqaKcaorL._SX300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Cases", 
-                                "Basic Cases"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Touch Screen Tablet Accessories", 
-                                "Screen Protectors"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Hello Kitty Home Button "
@@ -33,31 +21,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Camera & Photo"
+                    }, 
                     "price": {
                         "N": "2.99"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/21J51BBX9WL.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Blank Media"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Camera & Photo", 
-                                "Accessories", 
-                                "Blank Video Media", 
-                                "VHS"
-                            ], 
-                            [
-                                "Movies & TV", 
-                                "Movies"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Tom Sawyer [VHS]"
@@ -66,34 +37,18 @@
             }
         }, 
         {
+                    "imUrl": {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Cases"
+                    }, 
                     "price": {
                         "N": "2.8"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/21cxivyH-CL.jpg"
                     }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Stylus Pens"
-                            ], 
-                            [
-                                "Cell Phones & Accessories", 
-                                "Cases", 
-                                "Basic Cases"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Touch Screen Tablet Accessories", 
-                                "Cases & Sleeves"
-                            ]
-                        ]
-                    }, 
                     "title": {
                         "S": "Case Square Premium Qual"
                     }
@@ -103,32 +58,15 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Cases"
+                    }, 
                     "price": {
                         "N": "1.26"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/21rWn9ycKmL.jpg"
                     }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Stylus Pens"
-                            ], 
-                            [
-                                "Cell Phones & Accessories", 
-                                "Cases", 
-                                "Basic Cases"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Touch Screen Tablet Accessories", 
-                                "Cases & Sleeves"
-                            ]
-                        ]
-                    }, 
                     "title": {
                         "S": "Case Square Premium Qual"
                     }
@@ -138,32 +76,15 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Cases"
+                    }, 
                     "price": {
                         "N": "2.8"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/21veyI-bMWL.jpg"
                     }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Stylus Pens"
-                            ], 
-                            [
-                                "Cell Phones & Accessories", 
-                                "Cases", 
-                                "Basic Cases"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Touch Screen Tablet Accessories", 
-                                "Cases & Sleeves"
-                            ]
-                        ]
-                    }, 
                     "title": {
                         "S": "Case Square Premium Qual"
                     }
@@ -173,27 +94,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "27.51"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/314ZAKFZ9BL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Headsets", 
-                                "Bluetooth Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Cables & Accessories", 
-                                "Headsets & Microphones"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "PLANTRONICS M-170 Conver"
@@ -204,27 +112,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "27.99"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/317TgYlS-HL._SX300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Headsets", 
-                                "Wired Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Cables & Accessories", 
-                                "Headsets & Microphones"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Mobile Conve"
@@ -235,24 +130,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Accessories & Supplies"
+                    }, 
                     "price": {
                         "N": "4.47"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/31G3QXGWAYL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Cases", 
-                                "Holsters & Clips"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics M120 Wired H"
@@ -263,23 +148,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Movies"
+                    }, 
                     "price": {
                         "N": "11.95"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/51Y1G4GXT0L._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Camera & Photo"
-                            ], 
-                            [
-                                "Movies & TV", 
-                                "Movies"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Ultimate Fighting Champi"
@@ -290,31 +166,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "68.57"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/41v-YHAsYqL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Telephone Accessories", 
-                                "Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories"
-                            ], 
-                            [
-                                "Office Products", 
-                                "Office Electronics", 
-                                "Telephones & Accessories", 
-                                "Corded Telephones"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics T20 Corded 2"
@@ -325,26 +184,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Car & Vehicle Electronics"
+                    }, 
                     "price": {
                         "N": "60.2"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/31KN5QDRGGL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Headsets", 
-                                "Wired Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Car Electronics"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics H141 Duoset "
@@ -355,27 +202,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "58.0"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/41R8FA552RL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Telephone Accessories", 
-                                "Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Cables & Accessories", 
-                                "Headsets & Microphones"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Encore Monau"
@@ -386,34 +220,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "14.99"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/41YPKpPraxL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Cables & Accessories", 
-                                "Cables & Interconnects", 
-                                "Modem Cables"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Computer Components", 
-                                "Internal Modems"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Networking Products", 
-                                "Modems"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "U.S. Robotics MHz Cell C"
@@ -424,27 +238,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "82.99"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/31NwULHGPgL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Headsets", 
-                                "Bluetooth Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Cables & Accessories", 
-                                "Headsets & Microphones"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Tristar Headset With Voi"
@@ -455,28 +256,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Car & Vehicle Electronics"
+                    }, 
                     "price": {
                         "N": "59.98"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/31H9J3YD3ZL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Car Electronics", 
-                                "Car Audio", 
-                                "Car Stereo Receivers"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Marine Electronics", 
-                                "Marine Stereos"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Encore H91N "
@@ -487,27 +274,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "9.95"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/313Q9XP4FYL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Telephone Accessories", 
-                                "Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Cables & Accessories", 
-                                "Headsets & Microphones"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics H101 Encore "
@@ -518,27 +292,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Women"
+                    }, 
                     "price": {
                         "N": "159.99"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/51MH7ZB46AL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "GPS & Navigation", 
-                                "Sports & Handheld GPS", 
-                                "Handheld GPS Units"
-                            ], 
-                            [
-                                "Clothing, Shoes & Jewelry", 
-                                "Women", 
-                                "Watches", 
-                                "Wrist Watches"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Suunto Vector Wristop Co"
@@ -549,38 +310,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Pop"
+                    }, 
                     "price": {
                         "N": "43.47"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/41eFYzxaWAL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "CDs & Vinyl", 
-                                "Pop", 
-                                "Adult Contemporary"
-                            ], 
-                            [
-                                "CDs & Vinyl", 
-                                "Pop", 
-                                "Singer-Songwriters"
-                            ], 
-                            [
-                                "CDs & Vinyl", 
-                                "Rock"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Television & Video", 
-                                "VCRs"
-                            ], 
-                            [
-                                "Movies & TV", 
-                                "TV"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Paul Simon - You're the "
@@ -591,27 +328,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "14.45"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/41HC99GTN3L._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Cell Phones & Accessories", 
-                                "Accessories", 
-                                "Headsets", 
-                                "Wired Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "Cables & Accessories", 
-                                "Headsets & Microphones"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Audio 50 Mon"
@@ -622,27 +346,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Computers & Accessories"
+                    }, 
                     "price": {
                         "N": "35.0"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/21T6C656B8L.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Audio & Video Accessories", 
-                                "Crossover Parts"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Computers & Accessories", 
-                                "External Components", 
-                                "KVM Switches"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics PC Headset S"
@@ -653,26 +364,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Car & Vehicle Electronics"
+                    }, 
                     "price": {
                         "N": "7.34"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/11YK0WDP06L.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Telephone Accessories", 
-                                "Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Car Electronics"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Value Pack f"
@@ -683,26 +382,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Car & Vehicle Electronics"
+                    }, 
                     "price": {
                         "N": "74.62"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/31PGK2WG12L._SX300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Audio & Video Accessories", 
-                                "Connectors & Adapters"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Car Electronics"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Plug Prong A"
@@ -713,26 +400,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Car & Vehicle Electronics"
+                    }, 
                     "price": {
                         "N": "6.72"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/51evOGu6XVL._SY300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Audio & Video Accessories", 
-                                "Headphone Accessories"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Car Electronics"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Windscreen K"
@@ -743,26 +418,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Live Sound & Stage"
+                    }, 
                     "price": {
                         "N": "6.1"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/21aRfQHcI0L._SX300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Car Electronics"
-                            ], 
-                            [
-                                "Musical Instruments", 
-                                "Live Sound & Stage", 
-                                "Stage & Studio Cables", 
-                                "Instrument Cables"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Cable M12 To"
@@ -773,26 +436,14 @@
         {
             "PutRequest": {
                 "Item": {
+                    "category": {
+                        "S": "Car & Vehicle Electronics"
+                    }, 
                     "price": {
                         "N": "31.2"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/4189J6YuxIL._SX300_.jpg"
-                    }, 
-                    "categories": {
-                        "S": [
-                            [
-                                "Electronics", 
-                                "Accessories & Supplies", 
-                                "Telephone Accessories", 
-                                "Headsets"
-                            ], 
-                            [
-                                "Electronics", 
-                                "Car & Vehicle Electronics", 
-                                "Car Electronics"
-                            ]
-                        ]
                     }, 
                     "title": {
                         "S": "Plantronics Coil Cord Qu"
