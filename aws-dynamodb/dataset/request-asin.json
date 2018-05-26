@@ -1,5 +1,5 @@
 {
-    "amazon-review-dataset-electronics": [
+    "apd-electronics-asin": [
         {
             "PutRequest": {
                 "Item": {
