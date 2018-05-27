@@ -4,7 +4,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "1.8"
@@ -22,7 +22,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Camera & Photo"
+                        "S": "Camera Photo"
                     }, 
                     "price": {
                         "N": "2.99"
@@ -94,7 +94,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "27.51"
@@ -112,7 +112,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "27.99"
@@ -130,7 +130,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Accessories & Supplies"
+                        "S": "Accessories Supplies"
                     }, 
                     "price": {
                         "N": "4.47"
@@ -139,7 +139,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/31G3QXGWAYL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics M120 Wired H"
+                        "S": "Plantronics M120 Wired"
                     }
                 }
             }
@@ -157,7 +157,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/51Y1G4GXT0L._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Ultimate Fighting Champi"
+                        "S": "Ultimate Fighting Champ"
                     }
                 }
             }
@@ -166,7 +166,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "68.57"
@@ -184,7 +184,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Car & Vehicle Electronics"
+                        "S": "Car Vehicle Electronics"
                     }, 
                     "price": {
                         "N": "60.2"
@@ -202,7 +202,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "58.0"
@@ -220,7 +220,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "14.99"
@@ -238,7 +238,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "82.99"
@@ -256,7 +256,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Car & Vehicle Electronics"
+                        "S": "Car Vehicle Electronics"
                     }, 
                     "price": {
                         "N": "59.98"
@@ -274,7 +274,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "9.95"
@@ -328,7 +328,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "14.45"
@@ -346,7 +346,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Computers & Accessories"
+                        "S": "Computers Accessories"
                     }, 
                     "price": {
                         "N": "35.0"
@@ -364,7 +364,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Car & Vehicle Electronics"
+                        "S": "Car Vehicle Electronics"
                     }, 
                     "price": {
                         "N": "7.34"
@@ -382,7 +382,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Car & Vehicle Electronics"
+                        "S": "Car Vehicle Electronics"
                     }, 
                     "price": {
                         "N": "74.62"
@@ -400,7 +400,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Car & Vehicle Electronics"
+                        "S": "Car Vehicle Electronics"
                     }, 
                     "price": {
                         "N": "6.72"
@@ -418,7 +418,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Live Sound & Stage"
+                        "S": "Live Sound Stage"
                     }, 
                     "price": {
                         "N": "6.1"
@@ -436,7 +436,7 @@
             "PutRequest": {
                 "Item": {
                     "category": {
-                        "S": "Car & Vehicle Electronics"
+                        "S": "Car Vehicle Electronics"
                     }, 
                     "price": {
                         "N": "31.2"
