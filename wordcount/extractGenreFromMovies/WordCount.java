@@ -19,10 +19,10 @@ public class WordCount {
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
 
-	      // Create a new job
+        // Create a new job
         Job job = Job.getInstance(conf, "wordcount");
 
-	      // Use the WordCount.class file to point to the job jar
+        // Use the WordCount.class file to point to the job jar
         job.setJarByClass(WordCount.class);
 
         job.setOutputKeyClass(Text.class);
@@ -34,7 +34,7 @@ public class WordCount {
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
 
-	      // Setting the input and output locations
+        // Setting the input and output locations
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
