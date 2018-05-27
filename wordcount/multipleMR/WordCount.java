@@ -85,17 +85,6 @@ public class WordCount {
         }
     }
 
-    public static class SortByValueMap extends Mapper<Text, Text, IntWritable, Text> {
-        private Text word = new Text();
-        IntWritable frequency = new IntWritable();
-
-        public void map(Text key, Text value, Context context)
-                throws IOException, InterruptedException {
-            frequency.set(Integer.parseInt(value.toString()));
-            context.write(frequency, key);
-        }
-    }
-
     public static class GenreCounterReduce extends Reducer<Text, IntWritable, Text, IntWritable> {
         public void reduce(Text key, Iterable<IntWritable> values, Context context)
                 throws IOException, InterruptedException {
@@ -105,6 +94,17 @@ public class WordCount {
                 sum += value.get();
             }
             context.write(key, new IntWritable(sum));
+        }
+    }
+
+    public static class SortByValueMap extends Mapper<Text, Text, IntWritable, Text> {
+        private Text word = new Text();
+        IntWritable frequency = new IntWritable();
+
+        public void map(Text key, Text value, Context context)
+                throws IOException, InterruptedException {
+            frequency.set(Integer.parseInt(value.toString()));
+            context.write(frequency, key);
         }
     }
 
