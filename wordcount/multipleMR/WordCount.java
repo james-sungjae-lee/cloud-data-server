@@ -72,7 +72,7 @@ public class WordCount {
                 throws IOException, InterruptedException {
             String line = value.toString();
             String[] fields = line.split(",");
-            String lastField = fields[lineArray.length - 1];
+            String lastField = fields[fields.length - 1];
             String[] genres = lastField.split("\\|");
 
             for (String genre : genres) {
