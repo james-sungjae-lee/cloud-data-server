@@ -66,8 +66,8 @@ public class WordCount {
             int sum = 0;
             
             // Sum all the occureeences of the word (key)
-            for (IntWritable val : values) {
-                sum += val.get();
+            for (IntWritable value : values) {
+                sum += value.get();
             }
             context.write(key, new IntWritable(sum));
         }
