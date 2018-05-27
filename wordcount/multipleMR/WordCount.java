@@ -52,6 +52,9 @@ public class WordCount {
         job2.setMapperClass(SortByValueMap.class);
         job2.setReducerClass(SortByValueReduce.class);
 
+        job2.setMapOutputKeyClass(IntWritable.class);
+        job2.setMapOutputValueClass(Text.class);
+
         job2.setOutputKeyClass(Text.class);
         job2.setOutputValueClass(IntWritable.class);
 
@@ -59,7 +62,7 @@ public class WordCount {
         job2.setOutputFormatClass(TextOutputFormat.class);
 
         FileInputFormat.setInputPaths(job2, new Path(args[1] + "/temp"));
-        FileOutputFormat.setOutputPath(job2, new Path(args[1]));
+        FileOutputFormat.setOutputPath(job2, new Path(args[1] + "/final"));
 
         job2.waitForCompletion(true);
     }
@@ -72,7 +75,7 @@ public class WordCount {
                 throws IOException, InterruptedException {
             String line = value.toString();
             String[] fields = line.split(",");
-            String lastField = fields[lineArray.length - 1];
+            String lastField = fields[fields.length - 1];
             String[] genres = lastField.split("\\|");
 
             for (String genre : genres) {
@@ -82,13 +85,13 @@ public class WordCount {
         }
     }
 
-    public static class SortByValueMap extends Mapper<Text, IntWritable, IntWritable, Text> {
+    public static class SortByValueMap extends Mapper<Text, Text, IntWritable, Text> {
         private Text word = new Text();
         IntWritable frequency = new IntWritable();
 
-        public void map(Text key, IntWritable value, Context context)
+        public void map(Text key, Text value, Context context)
                 throws IOException, InterruptedException {
-            frequency.set(value.get());
+            frequency.set(Integer.parseInt(value.toString()));
             context.write(frequency, key);
         }
     }
