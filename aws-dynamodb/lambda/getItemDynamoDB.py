@@ -1,6 +1,7 @@
 import boto3
 import json
 import decimal
+
 from boto3.dynamodb.conditions import Key, Attr
 from botocore.exceptions import ClientError
 
@@ -17,16 +18,14 @@ class DecimalEncoder(json.JSONEncoder):
 def lambda_handler(event, context):
     
     dynamodb = boto3.resource("dynamodb", region_name='us-west-2')
-    table = dynamodb.Table('apd-electronics-asin')
+    table = dynamodb.Table('amazon-product-electronics')
 
-    asin = "0594033934"
-    price = '0.02'
+    asin = "B00004Z7QT"
     
     try:
         response = table.get_item(
             Key = {
-                'asin': asin,
-                'price' : decimal.Decimal(price)
+                'asin': asin
             }
         )
     except ClientError as e:
@@ -37,4 +36,3 @@ def lambda_handler(event, context):
         print("Get Item Successed : ")
         print(json.dumps(item, indent=4, cls=DecimalEncoder))
         return "Successed get item"
-
