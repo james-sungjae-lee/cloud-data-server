@@ -1,33 +1,17 @@
 {
-  "features": {
-    "M": {
-      "camera": {
-        "S": "12MP"
-      },
-      "memory": {
-        "S": "64GB"
-      },
-      "os": {
-        "S": "iOS11"
-      },
-      "processor": {
-        "S": "A11 Bionic(64bit)"
-      }
-    }
+  "asin": {
+    "S": "0000000003"
   },
-  "id": {
-    "S": "3"
+  "category": {
+    "S": "Computers Accessories"
   },
-  "mnfr": {
-    "S": "Apple"
-  },
-  "name": {
-    "S": "Apple iPhone X, Space Gray, 64 GB"
+  "imUrl": {
+    "S": "https://www.logitechg.com/en-us/gaming-keyboards"
   },
   "price": {
-    "N": "900000"
+    "N": "133"
   },
-  "type": {
-    "S": "phone"
+  "title": {
+    "S": "apple magic mouse"
   }
 }
