@@ -1,0 +1,16 @@
+{
+    "category": {
+        "AttributeValueList": [
+            {
+                "S": "Computers Accessories"
+         } ],
+        "ComparisonOperator": "EQ"
+    }
+    "price": {
+        "AttributeValueList": [
+            {
+                "N": "15"
+         } ],
+        "ComparisonOperator": "LE"
+    }
+}
