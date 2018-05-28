@@ -21,8 +21,8 @@ def lambda_handler(event, context):
     asin = event["asin"]
     
     response = table.query(
-        ProjectionExpression= "asin, price, title, imUrl",
-        KeyConditionExpression=Key('asin').eq(asin) & Key('price').gt(0) 
+        ProjectionExpression = "asin, category, price, title, imUrl",
+        KeyConditionExpression = Key('asin').eq(asin) 
     )
     
     item = response['Items'][0]
