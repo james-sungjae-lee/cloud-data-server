@@ -1,15 +1,8 @@
 {
-    "Artist": {
+    "asin": {
         "AttributeValueList": [
             {
-                "S": "No One You Know"
-         } ],
-        "ComparisonOperator": "EQ"
-    },
-    "SongTitle": {
-        "AttributeValueList": [
-            {
-                "S": "Call Me Today"
+                "S": "0000000006"
          } ],
         "ComparisonOperator": "EQ"
     }
