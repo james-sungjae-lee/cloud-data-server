@@ -16,19 +16,19 @@ class DecimalEncoder(json.JSONEncoder):
 
 def lambda_handler(event, context):
     dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
-    table = dynamodb.Table('apd-electronics-category')
+    table = dynamodb.Table('amazon-product-electronics')
     print "Event : ", event
     category = event["category"]
     
     response = table.query(
-        ProjectionExpression= "category, price, title, imUrl",
+        ProjectionExpression= "asin, category, price, title, imUrl",
         KeyConditionExpression=Key('category').eq(category) & Key('price').gt(0) 
     )
     
     html = '<html><head><title>Amazon Product Electronics</title></head>'+'<body><h1>Amazon Product Electronics</h1>'
     
     for item in response['Items']:
-        html += "<h3>asin : "+str(item["category"])+"</h3>"
+        html += "<h3>asin : "+str(item["asin"])+"</h3>"
         html += "<h3>product name : "+str(item["title"])+"</h3>"
         html += "<h3>product price : $"+str(item["price"])+"</h3>"
         html += "<img src="+str(item["imUrl"])+"><br>"

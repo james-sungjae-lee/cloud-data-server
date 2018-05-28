@@ -16,7 +16,7 @@ class DecimalEncoder(json.JSONEncoder):
 
 def lambda_handler(event, context):
     dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
-    table = dynamodb.Table('apd-electronics-asin')
+    table = dynamodb.Table('amazon-product-electronics')
     print "Event : ", event
     asin = event["asin"]
     
