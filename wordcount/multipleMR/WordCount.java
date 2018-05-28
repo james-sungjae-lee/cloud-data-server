@@ -3,7 +3,6 @@ package kr.ac.kookmin.cs.bigdata;
 import java.io.IOException;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -12,119 +11,110 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.FileStatus;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.util.Tool;
-import org.apache.hadoop.util.ToolRunner;
 
+public class WordCount {
+    public static void main(String[] args) throws Exception {
+        Configuration conf = new Configuration();
 
-public class WordCount extends Configured implements Tool{
+        /*
+         * Job 1: Count the number of genres appeared
+         */
+        Job job1 = Job.getInstance(conf, "WordCount");
+        job1.setJarByClass(WordCount.class);
 
-    public int run(String[] args) throws Exception {
-      /*
-       * Job 1
-       */
-      Configuration conf = getConf();
-      Job job = Job.getInstance(conf, "Word Combined");
-      job.setJarByClass(WordCount.class);
+        job1.setMapperClass(GenreCounterMap.class);
+        job1.setReducerClass(GenreCounterReduce.class);
 
-      job.setMapperClass(WordMapper.class);
-      job.setReducerClass(SumReducer.class);
+        job1.setOutputKeyClass(Text.class);
+        job1.setOutputValueClass(IntWritable.class);
 
-      job.setOutputKeyClass(Text.class);
-      job.setOutputValueClass(IntWritable.class);
+        job1.setInputFormatClass(TextInputFormat.class);
+        job1.setOutputFormatClass(TextOutputFormat.class);
 
-      job.setInputFormatClass(TextInputFormat.class);
-      job.setOutputFormatClass(TextOutputFormat.class);
+        FileInputFormat.setInputPaths(job1, new Path(args[0]));
+        FileOutputFormat.setOutputPath(job1, new Path(args[1] + "/temp"));
 
-      FileInputFormat.setInputPaths(job, new Path(args[0]));
-      FileOutputFormat.setOutputPath(job, new Path(args[1] + "/temp"));
+        job1.waitForCompletion(true);
 
-      job.waitForCompletion(true);
+        /*
+         * Job 2: Sort based on the number of occurences
+         */
+        Job job2 = Job.getInstance(conf, "SortByCountValue");
 
-      /*
-       * Job 2
-       */
-      Job job2 = Job.getInstance(conf, "Word Invert");
+        job2.setNumReduceTasks(1);
 
-      job2.setNumReduceTasks(1);
+        job2.setJarByClass(WordCount.class);
 
-      job2.setJarByClass(WordCount.class);
-      job2.setMapperClass(WordMapper2.class);
-      job2.setReducerClass(SumReducer2.class);
+        job2.setMapperClass(SortByValueMap.class);
+        job2.setReducerClass(SortByValueReduce.class);
 
-      job2.setOutputKeyClass(IntWritable.class);
-      job2.setOutputValueClass(Text.class);
+        job2.setMapOutputKeyClass(IntWritable.class);
+        job2.setMapOutputValueClass(Text.class);
 
-      job2.setInputFormatClass(KeyValueTextInputFormat.class);
-      job2.setOutputFormatClass(TextOutputFormat.class);
+        job2.setOutputKeyClass(Text.class);
+        job2.setOutputValueClass(IntWritable.class);
 
-      FileInputFormat.setInputPaths(job2, new Path(args[1] + "/temp"));
-      FileOutputFormat.setOutputPath(job2, new Path(args[1] + "/final"));
+        job2.setInputFormatClass(KeyValueTextInputFormat.class);
+        job2.setOutputFormatClass(TextOutputFormat.class);
 
-      return job2.waitForCompletion(true) ? 0 : 1;
+        FileInputFormat.setInputPaths(job2, new Path(args[1] + "/temp"));
+        FileOutputFormat.setOutputPath(job2, new Path(args[1] + "/final"));
+
+        job2.waitForCompletion(true);
     }
 
-    public static void main(String[] args) throws Exception {
-      // TODO Auto-generated method stub
-      if (args.length != 2) {
-       System.err.println("Enter valid number of arguments <Inputdirectory>  <Outputlocation>");
-       System.exit(0);
-      }
-      ToolRunner.run(new Configuration(), new WordCount(), args);
-     }
-
-    public static class WordMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+    public static class GenreCounterMap extends Mapper<LongWritable, Text, Text, IntWritable> {
         private final static IntWritable one = new IntWritable(1);
         private Text word = new Text();
 
-        public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+        public void map(LongWritable key, Text value, Context context)
+                throws IOException, InterruptedException {
             String line = value.toString();
-            String[] lineArray = line.split(",");
-            String lastWord = lineArray[lineArray.length - 1];
-            String[] genreArray = lastWord.split("\\|");
-            for (String genre_value : genreArray) {
-                word.set(genre_value);
+            String[] fields = line.split(",");
+            String lastField = fields[fields.length - 1];
+            String[] genres = lastField.split("\\|");
+
+            for (String genre : genres) {
+                word.set(genre);
                 context.write(word, one);
             }
         }
     }
 
-    public static class WordMapper2 extends Mapper<Text, Text, IntWritable, Text> {
-        private Text word = new Text();
-        IntWritable frequency = new IntWritable();
-
-        public void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-            int newVal = Integer.parseInt(value.toString());
-            frequency.set(newVal);
-            context.write(frequency, key);
-        }
-    }
-
-    public static class SumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
+    public static class GenreCounterReduce extends Reducer<Text, IntWritable, Text, IntWritable> {
         public void reduce(Text key, Iterable<IntWritable> values, Context context)
                 throws IOException, InterruptedException {
             int sum = 0;
 
-            for (IntWritable val : values) {
-                sum += val.get();
+            for (IntWritable value : values) {
+                sum += value.get();
             }
             context.write(key, new IntWritable(sum));
         }
     }
 
-    public static class SumReducer2 extends Reducer<IntWritable, Text, Text, IntWritable> {
+    public static class SortByValueMap extends Mapper<Text, Text, IntWritable, Text> {
+        private Text word = new Text();
+        IntWritable frequency = new IntWritable();
+
+        public void map(Text key, Text value, Context context)
+                throws IOException, InterruptedException {
+            frequency.set(Integer.parseInt(value.toString()));
+            context.write(frequency, key);
+        }
+    }
+
+    public static class SortByValueReduce extends Reducer<IntWritable, Text, Text, IntWritable> {
         public void reduce(IntWritable key, Iterable<Text> values, Context context)
-            throws IOException, InterruptedException {
-            for (Text val : values) {
-            context.write(val, key);
+                throws IOException, InterruptedException {
+            for (Text value : values) {
+                context.write(value, key);
             }
         }
     }
 }
+
