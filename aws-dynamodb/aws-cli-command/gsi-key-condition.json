@@ -5,7 +5,7 @@
                 "S": "Computers Accessories"
          } ],
         "ComparisonOperator": "EQ"
-    }
+    },
     "price": {
         "AttributeValueList": [
             {
