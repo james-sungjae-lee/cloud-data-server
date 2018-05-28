@@ -16,11 +16,10 @@ class DecimalEncoder(json.JSONEncoder):
         return super(DecimalEncoder, self).default(o)
 
 def lambda_handler(event, context):
+    asin = event["asin"]
     
     dynamodb = boto3.resource("dynamodb", region_name='us-west-2')
     table = dynamodb.Table('amazon-product-electronics')
-
-    asin = "B00004Z7QT"
     
     try:
         response = table.get_item(
