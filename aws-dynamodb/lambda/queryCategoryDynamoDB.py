@@ -37,3 +37,4 @@ def lambda_handler(event, context):
     html += '</body></html>'
     
     return html
+

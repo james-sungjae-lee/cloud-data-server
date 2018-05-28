@@ -28,3 +28,4 @@ def lambda_handler(event, context):
     item = response['Items'][0]
     result = "asin : "+str(item["asin"])+" product name : "+str(item["title"])+ " product price : "+str(item["price"])
     return result
+
