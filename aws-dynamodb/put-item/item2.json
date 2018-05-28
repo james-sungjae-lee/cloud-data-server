@@ -1,33 +1,17 @@
 {
-  "features": {
-    "M": {
-      "camera": {
-        "S": "12MP"
-      },
-      "memory": {
-        "S": "256GB"
-      },
-      "os": {
-        "S": "iOS11"
-      },
-      "processor": {
-        "S": "A11 Bionic(64bit)"
-      }
-    }
+  "asin": {
+    "S": "0000000004"
   },
-  "id": {
-    "S": "4"
+  "category": {
+    "S": "Computers Accessories"
   },
-  "mnfr": {
-    "S": "Apple"
-  },
-  "name": {
-    "S": "Apple iPhone 8+, Space Gray, 256 GB"
+  "imUrl": {
+    "S": "https://store.storeimages.cdn-apple.com/8754/as-images.apple.com/is/image/AppleInc/aos/published/images/M/LA/MLA22J/MLA22J?wid=890&hei=890&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1496943883242"
   },
   "price": {
-    "N": "1100000"
+    "N": "150"
   },
-  "type": {
-    "S": "phone"
+  "title": {
+    "S": "apple magic keyboard"
   }
 }

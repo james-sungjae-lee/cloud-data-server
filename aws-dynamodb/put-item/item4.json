@@ -1,27 +1,17 @@
 {
-  "features": {
-    "M": {
-      "author": {
-        "S": "Kim"
-      },
-      "ISBN": {
-        "S": "9XX-XX-XXXX-007-2"
-      }
-    }
+  "asin": {
+    "S": "0000000006"
   },
-  "id": {
-    "S": "6"
+  "category": {
+    "S": "Phone"
   },
-  "mnfr": {
-    "S": "O'Relly"
-  },
-  "name": {
-    "S": "Google Cloud Platform"
+  "imUrl": {
+    "S": "https://store.storeimages.cdn-apple.com/8754/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/x/iphone-x-select-2017?wid=378&hei=752&fmt=png-alpha&qlt=80&.v=1504378258086"
   },
   "price": {
-    "N": "55000"
+    "N": "160"
   },
-  "type": {
-    "S": "book"
+  "title": {
+    "S": "iPhone X"
   }
 }
