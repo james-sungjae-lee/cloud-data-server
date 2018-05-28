@@ -1,5 +1,5 @@
 {
-    "apd-electronics-category": [
+    "amazon-product-electronics": [
         {
             "PutRequest": {
                 "Item": {
@@ -13,7 +13,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/41nqaKcaorL._SX300_.jpg"
                     }, 
                     "title": {
-                        "S": "Hello Kitty Home Button "
+                        "S": "Hello Kitty Home Button Sticker plus Free Screen Protector"
                     }
                 }
             }
@@ -43,13 +43,13 @@
                         "S": "Cases"
                     }, 
                     "price": {
-                        "N": "2.85"
+                        "N": "2.8"
                     }, 
                     "imUrl": {
                         "S": "http://ecx.images-amazon.com/images/I/21cxivyH-CL.jpg"
                     }, 
                     "title": {
-                        "S": "Case Square Premium Qual"
+                        "S": "Case Square Premium Quality Red Stylus for iPhone, iPad, Motorola, Blackberry, Samsung"
                     }
                 }
             }
@@ -67,7 +67,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/21rWn9ycKmL.jpg"
                     }, 
                     "title": {
-                        "S": "Case Square Premium Qual"
+                        "S": "Case Square Premium Quality Silver Stylus for iPhone, iPad, Motorola, Blackberry, Samsung"
                     }
                 }
             }
@@ -85,7 +85,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/21veyI-bMWL.jpg"
                     }, 
                     "title": {
-                        "S": "Case Square Premium Qual"
+                        "S": "Case Square Premium Quality Black Stylus for iPhone, iPad, Motorola, Blackberry, Samsung"
                     }
                 }
             }
@@ -103,7 +103,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/314ZAKFZ9BL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "PLANTRONICS M-170 Conver"
+                        "S": "PLANTRONICS M-170 Convertible Headset with Noise-Canceling Boom Microphones (PLANTRONICS M170)"
                     }
                 }
             }
@@ -121,7 +121,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/317TgYlS-HL._SX300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Mobile Conve"
+                        "S": "Plantronics Mobile Convertible Headset M175C"
                     }
                 }
             }
@@ -139,7 +139,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/31G3QXGWAYL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics M120 Wired"
+                        "S": "Plantronics M120 Wired Headset for Cordless and Mobile Phones 2.5mm headset plug"
                     }
                 }
             }
@@ -157,7 +157,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/51Y1G4GXT0L._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Ultimate Fighting Champ"
+                        "S": "Ultimate Fighting Championship Vol. 1 - UFC Hits [VHS]"
                     }
                 }
             }
@@ -175,7 +175,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/41v-YHAsYqL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics T20 Corded 2"
+                        "S": "Plantronics T20 Corded 2-Line Convertible Headset Telephone"
                     }
                 }
             }
@@ -193,7 +193,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/31KN5QDRGGL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics H141 Duoset "
+                        "S": "Plantronics H141 Duoset Convertible Headset"
                     }
                 }
             }
@@ -211,7 +211,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/41R8FA552RL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Encore Monau"
+                        "S": "Plantronics Encore Monaural Headset Includes 1 Extra Voice Tube"
                     }
                 }
             }
@@ -229,7 +229,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/41YPKpPraxL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "U.S. Robotics MHz Cell C"
+                        "S": "U.S. Robotics MHz Cell Cable for Nokia 5120/5160/6120/6160/6161/6162"
                     }
                 }
             }
@@ -247,7 +247,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/31NwULHGPgL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Tristar Headset With Voi"
+                        "S": "Tristar Headset With Voice Tube"
                     }
                 }
             }
@@ -265,7 +265,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/31H9J3YD3ZL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Encore H91N "
+                        "S": "Plantronics Encore H91N Monaural Headset with Noise Canceling Microphone"
                     }
                 }
             }
@@ -283,7 +283,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/313Q9XP4FYL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics H101 Encore "
+                        "S": "Plantronics H101 Encore Headset"
                     }
                 }
             }
@@ -301,7 +301,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/51MH7ZB46AL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Suunto Vector Wristop Co"
+                        "S": "Suunto Vector Wristop Computer with Compass, Altimeter &amp; Barometer"
                     }
                 }
             }
@@ -319,7 +319,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/41eFYzxaWAL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Paul Simon - You're the "
+                        "S": "Paul Simon - You're the One (In Concert from Paris) [VHS]"
                     }
                 }
             }
@@ -337,7 +337,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/41HC99GTN3L._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Audio 50 Mon"
+                        "S": "Plantronics Audio 50 Mono PC Headset"
                     }
                 }
             }
@@ -355,7 +355,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/21T6C656B8L.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics PC Headset S"
+                        "S": "Plantronics PC Headset Speaker Switch"
                     }
                 }
             }
@@ -373,7 +373,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/11YK0WDP06L.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Value Pack f"
+                        "S": "Plantronics Value Pack for Supra Headsets 2ear Cush 1 V-tube Bk Sup Crd Cp"
                     }
                 }
             }
@@ -391,7 +391,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/31PGK2WG12L._SX300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Plug Prong A"
+                        "S": "Plantronics Plug Prong Adapter"
                     }
                 }
             }
@@ -409,7 +409,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/51evOGu6XVL._SY300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Windscreen K"
+                        "S": "Plantronics Windscreen Kit Supra Nc/polarisnoise Cancelling Mouth Piece"
                     }
                 }
             }
@@ -427,7 +427,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/21aRfQHcI0L._SX300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Cable M12 To"
+                        "S": "Plantronics Cable M12 To Quick Disconnect (Cable, Coil, Mod, Plug, Spare)"
                     }
                 }
             }
@@ -445,7 +445,7 @@
                         "S": "http://ecx.images-amazon.com/images/I/4189J6YuxIL._SX300_.jpg"
                     }, 
                     "title": {
-                        "S": "Plantronics Coil Cord Qu"
+                        "S": "Plantronics Coil Cord Quick Disconnect Tomale Modular Plug M10/ Midi/"
                     }
                 }
             }
