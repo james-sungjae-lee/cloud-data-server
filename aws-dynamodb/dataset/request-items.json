@@ -6,6 +6,9 @@
                     "category": {
                         "S": "Computers Accessories"
                     }, 
+                    "asin": {
+                        "S": "1182702627"
+                    }, 
                     "price": {
                         "N": "1.8"
                     }, 
@@ -23,6 +26,9 @@
                 "Item": {
                     "category": {
                         "S": "Camera Photo"
+                    }, 
+                    "asin": {
+                        "S": "6301977173"
                     }, 
                     "price": {
                         "N": "2.99"
@@ -42,6 +48,9 @@
                     "category": {
                         "S": "Cases"
                     }, 
+                    "asin": {
+                        "S": "7108037661"
+                    }, 
                     "price": {
                         "N": "2.8"
                     }, 
@@ -59,6 +68,9 @@
                 "Item": {
                     "category": {
                         "S": "Cases"
+                    }, 
+                    "asin": {
+                        "S": "9621446805"
                     }, 
                     "price": {
                         "N": "1.26"
@@ -78,6 +90,9 @@
                     "category": {
                         "S": "Cases"
                     }, 
+                    "asin": {
+                        "S": "9862720530"
+                    }, 
                     "price": {
                         "N": "2.8"
                     }, 
@@ -95,6 +110,9 @@
                 "Item": {
                     "category": {
                         "S": "Computers Accessories"
+                    }, 
+                    "asin": {
+                        "S": "B00001W0DF"
                     }, 
                     "price": {
                         "N": "27.51"
@@ -114,6 +132,9 @@
                     "category": {
                         "S": "Computers Accessories"
                     }, 
+                    "asin": {
+                        "S": "B00001W0EQ"
+                    }, 
                     "price": {
                         "N": "27.99"
                     }, 
@@ -131,6 +152,9 @@
                 "Item": {
                     "category": {
                         "S": "Accessories Supplies"
+                    }, 
+                    "asin": {
+                        "S": "B00001W0EC"
                     }, 
                     "price": {
                         "N": "4.47"
@@ -150,6 +174,9 @@
                     "category": {
                         "S": "Movies"
                     }, 
+                    "asin": {
+                        "S": "B00004TJH1"
+                    }, 
                     "price": {
                         "N": "11.95"
                     }, 
@@ -167,6 +194,9 @@
                 "Item": {
                     "category": {
                         "S": "Computers Accessories"
+                    }, 
+                    "asin": {
+                        "S": "B00004U8K4"
                     }, 
                     "price": {
                         "N": "68.57"
@@ -186,6 +216,9 @@
                     "category": {
                         "S": "Car Vehicle Electronics"
                     }, 
+                    "asin": {
+                        "S": "B00004WFYN"
+                    }, 
                     "price": {
                         "N": "60.2"
                     }, 
@@ -203,6 +236,9 @@
                 "Item": {
                     "category": {
                         "S": "Computers Accessories"
+                    }, 
+                    "asin": {
+                        "S": "B00004Z7I2"
                     }, 
                     "price": {
                         "N": "58.0"
@@ -222,6 +258,9 @@
                     "category": {
                         "S": "Computers Accessories"
                     }, 
+                    "asin": {
+                        "S": "B00004Z7GG"
+                    }, 
                     "price": {
                         "N": "14.99"
                     }, 
@@ -239,6 +278,9 @@
                 "Item": {
                     "category": {
                         "S": "Computers Accessories"
+                    }, 
+                    "asin": {
+                        "S": "B00004Z7KX"
                     }, 
                     "price": {
                         "N": "82.99"
@@ -258,6 +300,9 @@
                     "category": {
                         "S": "Car Vehicle Electronics"
                     }, 
+                    "asin": {
+                        "S": "B00004Z7QT"
+                    }, 
                     "price": {
                         "N": "59.98"
                     }, 
@@ -275,6 +320,9 @@
                 "Item": {
                     "category": {
                         "S": "Computers Accessories"
+                    }, 
+                    "asin": {
+                        "S": "B00004Z7S4"
                     }, 
                     "price": {
                         "N": "9.95"
@@ -294,6 +342,9 @@
                     "category": {
                         "S": "Women"
                     }, 
+                    "asin": {
+                        "S": "B000051SEN"
+                    }, 
                     "price": {
                         "N": "159.99"
                     }, 
@@ -311,6 +362,9 @@
                 "Item": {
                     "category": {
                         "S": "Pop"
+                    }, 
+                    "asin": {
+                        "S": "B000056VR8"
                     }, 
                     "price": {
                         "N": "43.47"
@@ -330,6 +384,9 @@
                     "category": {
                         "S": "Computers Accessories"
                     }, 
+                    "asin": {
+                        "S": "B000063UWX"
+                    }, 
                     "price": {
                         "N": "14.45"
                     }, 
@@ -347,6 +404,9 @@
                 "Item": {
                     "category": {
                         "S": "Computers Accessories"
+                    }, 
+                    "asin": {
+                        "S": "B000069E1V"
                     }, 
                     "price": {
                         "N": "35.0"
@@ -366,6 +426,9 @@
                     "category": {
                         "S": "Car Vehicle Electronics"
                     }, 
+                    "asin": {
+                        "S": "B00006B7S4"
+                    }, 
                     "price": {
                         "N": "7.34"
                     }, 
@@ -383,6 +446,9 @@
                 "Item": {
                     "category": {
                         "S": "Car Vehicle Electronics"
+                    }, 
+                    "asin": {
+                        "S": "B00006B7SW"
                     }, 
                     "price": {
                         "N": "74.62"
@@ -402,6 +468,9 @@
                     "category": {
                         "S": "Car Vehicle Electronics"
                     }, 
+                    "asin": {
+                        "S": "B00006B7RM"
+                    }, 
                     "price": {
                         "N": "6.72"
                     }, 
@@ -420,6 +489,9 @@
                     "category": {
                         "S": "Live Sound Stage"
                     }, 
+                    "asin": {
+                        "S": "B00006B7S9"
+                    }, 
                     "price": {
                         "N": "6.1"
                     }, 
@@ -437,6 +509,9 @@
                 "Item": {
                     "category": {
                         "S": "Car Vehicle Electronics"
+                    }, 
+                    "asin": {
+                        "S": "B00006B7S2"
                     }, 
                     "price": {
                         "N": "31.2"

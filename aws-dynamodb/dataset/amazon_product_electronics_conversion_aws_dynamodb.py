@@ -29,6 +29,7 @@ for json_data in parse(JSON_FILE_READ_PATH):
             pass
         #print json_data["categories"][1]     
         json_item = {
+                "asin": {"S":json_data["asin"]},
                 "category": {"S": str(json_data["categories"][1][1]).replace("&", "").replace("  "," ")},
                 "price":{"N":str(float(json_data["price"]))},
                 "title":{"S":json_data["title"]},
