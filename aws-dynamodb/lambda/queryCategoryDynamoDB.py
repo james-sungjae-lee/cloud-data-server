@@ -21,6 +21,7 @@ def lambda_handler(event, context):
     category = event["category"]
     
     response = table.query(
+        IndexName = 'category-price-index',
         ProjectionExpression= "asin, category, price, title, imUrl",
         KeyConditionExpression=Key('category').eq(category) & Key('price').gt(0) 
     )
