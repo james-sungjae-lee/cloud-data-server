@@ -65,7 +65,7 @@ public class WordCount {
                 throws IOException, InterruptedException {
             int sum = 0;
             
-            // Sum all the occureeences of the word (key)
+            // Sum all the occurrences of the word (key)
             for (IntWritable value : values) {
                 sum += value.get();
             }
