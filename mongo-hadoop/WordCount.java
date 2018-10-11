@@ -41,7 +41,7 @@ public class WordCount {
 
 			context.write(key, CombinerText);
 		}
-    }
+        }
 	
 	public static class Reduce extends Reducer<Text, Text, Text, BSONWritable> {
 		private BSONWritable reduceResult = new BSONWritable();
