@@ -22,7 +22,6 @@ public class MovieIdByTags {
         
         MongoConfigUtil.setInputURI(conf, "mongodb://" + args[0]);
         MongoConfigUtil.setOutputURI(conf, "mongodb://" + args[1]);
-        MongoConfigUtil.setQuery(conf, "{timestamp:{$gt : 1367757237}}");
 
         Job job = Job.getInstance(conf, "TagsAggregator");
 
